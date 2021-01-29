@@ -98,7 +98,7 @@ def _main_langs():
         'uk': 'Ukrainian',
         'ur': 'Urdu',
         'vi': 'Vietnamese',
-        'zh-CN': 'Chinese'
+        'zh': 'Chinese'
     }
 
 
@@ -114,9 +114,6 @@ def _extra_langs():
 
     """
     return {
-        # Chinese
-        'zh-cn': 'Chinese (Mandarin/China)',
-        'zh-tw': 'Chinese (Mandarin/Taiwan)',
         # English
         'en-us': 'English (US)',
         'en-ca': 'English (Canada)',

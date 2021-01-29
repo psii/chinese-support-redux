@@ -21,7 +21,7 @@ requests.packages.urllib3.disable_warnings()
 
 
 class AudioDownloader:
-    def __init__(self, text, source='google|zh-cn'):
+    def __init__(self, text, source='google|zh'):
         self.text = text
         self.service, self.lang = source.split('|')
         self.path = self.get_path()
